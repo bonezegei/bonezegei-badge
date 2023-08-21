@@ -1,1 +1,43 @@
+<!--
+    Simple Text Badge with SVG
+    Repository: bonezegei-badge 
+    Author: Jofel Batutay (Bonezegei)
+    Date : August 2023
+-->
 
+<svg viewBox="0 0 10px 10px" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .small {
+      font: bold 12px sans-serif;
+    }
+
+  </style>
+  
+  <g>
+    <rect x="0" width="100%" height="20" rx="3" fill="blue" id="rect1"/>
+    <text x="10" y="14" class="small" id="text1" fill="white">Sample</text>
+  </g>
+  
+  <script>
+    var str=window.location.search;             
+    var finalStr=str.substr(1, str.length);     <!-- Remove the (?)-->
+
+    const value = finalStr.split("-");
+
+    var strtext = value[0];
+    var strFinal = strtext.replace(/_/g, " "); <!-- Replace the (_) with space-->
+
+    var text=document.getElementById("text1");
+    text.textContent =strFinal;
+    if(value[2]){
+        text.style.fill = value[2];           <!-- check if font color is specified-->
+    }
+    var bbox = text.getBBox();                <!-- get text width from bounding box-->
+    var width = bbox.width;
+
+    var rect = document.getElementById("rect1");
+    rect.style.width = 20 + width + "px";
+    rect.style.fill = value[1];
+  </script>
+
+</svg>
