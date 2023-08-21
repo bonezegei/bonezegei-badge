@@ -15,7 +15,7 @@
   
   <g>
     <rect x="0" width="100%" height="20" rx="3" fill="blue" id="rect1"/>
-    <text x="10" y="14" class="small" id="text1" fill="white">Sample</text>
+    <text x="10" y="14" class="small" id="text1" fill="white">Bonezegei Simple Text </text>
   </g>
   
   <script>
