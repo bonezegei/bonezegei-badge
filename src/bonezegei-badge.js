@@ -13,7 +13,7 @@ function getSimpleTextWidth(str) {
   text.textContent = str;
   var bbox = text.getBBox();
   var width = bbox.width;
-  document.getElementById("dummysvg").style.display = "none";
+  document.getElementById("dummysvg").remove();
   return width;
 }
 
@@ -59,4 +59,5 @@ function badgeSimpleText(stringText, color, id) {
   var src = "data:image/svg+xml;utf8,";
   src += new XMLSerializer().serializeToString(document.getElementById(svg));
   document.getElementById(id).src = src;
+  document.getElementById(svg).remove();
 }
