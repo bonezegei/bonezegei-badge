@@ -20,6 +20,11 @@ badgeSimpleText(text, color, id);
   </html>
 ```
 #### Result
-https://bonezegei.github.io/bonezegei-badge/sample/simpletext.html
+
+| No | Sample | Description| Demo Link|
+|-----|-----|---|---|
+|  1  | SimpleText      | Sample 1    | https://bonezegei.github.io/bonezegei-badge/sample/simpletext.html  |
+|  2  | SimpleText      | Sample 2    | https://bonezegei.github.io/bonezegei-badge/sample/simpletext2.html |
+
 
 
