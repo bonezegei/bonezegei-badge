@@ -4,11 +4,24 @@
     Author: Jofel Batutay (Bonezegei)
     Date : August 2023
 */
+function getSimpleTextWidth(str) {
+  var svg =
+    '<svg  id="dummysvg" xmlns="http://www.w3.org/2000/svg" width="200" height="20"><style>.small {font: bold 12px sans-serif;} </style><g><text class="small" id="dummytext" fill="white">Sample</text></g></svg>';
+  document.write(svg);
+  document.getElementById("dummysvg").style.display = "block";
+  var text = document.getElementById("dummytext");
+  text.textContent = str;
+  var bbox = text.getBBox();
+  var width = bbox.width;
+  document.getElementById("dummysvg").style.display = "none";
+  return width;
+}
 
 function getDataSimpleText(stringText, color, id) {
+  var w = getSimpleTextWidth(stringText) + 20;
   var svg = '<svg  id="svg';
   svg += id;
-  svg += '" xmlns="http://www.w3.org/2000/svg" width="150px" height="20">';
+  svg +='" xmlns="http://www.w3.org/2000/svg" width="' + w + 'px" height="20">';
   svg += "<style> .small { font: bold 12px sans-serif;} </style>";
   svg += "<g>";
   svg += '<rect x="0" width="100%" height="20px" rx="3" fill="blue" id="rect';
