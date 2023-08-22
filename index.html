@@ -1,8 +1,14 @@
 <html>
   <head>
+    <link rel="stylesheet" href="badge/badge.css" />
+    <script src="src/bonezegei-badge.js"></script>
   </head>
-  <body>
-    
-    <iframe src="https://bonezegei.github.io/bonezegei-badge/src/simpletext.svg?Hello_world-blue"></iframe>
+  <body style="display: block">
+    <img id="badge" alt="" /><br /><br />
+    <img id="badge2" alt="" />
+    <script>
+      badgeSimpleText("bonezegei-badge", "green", "badge");
+      badgeSimpleText("version 1", "tomato", "badge2");
+    </script>
   </body>
 </html>
