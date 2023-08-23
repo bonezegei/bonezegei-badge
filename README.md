@@ -1,6 +1,12 @@
 # bonezegei_badge
 Simple badge for web using javascript
 
+#### Details
+| No  | Sample Output                       | Badge type      | Height  | Width    |
+|-----|-------------------------------------|-----------------|---------|----------|
+|  1  | ![S](docs/images/simpletext.png)    |badgeSimpleText  | 20px    | Dynamic  |
+|  2  | ![D](docs/images/doubletext.png)    |badgeDoubleText  | 20px    | Dynamic  |
+
 ## Simple Text
 Displays basic text inside a box. The user must set first the img id for the image and call the javascipt function specifying the text, color and id of the desired badge.
 badgeSimpleText(text, color, id);
