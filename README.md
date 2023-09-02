@@ -71,3 +71,20 @@ badgeDoubleText(text1, text2, color1, color2, id);
 | No | Sample | Description| Demo Link|
 |-----|-----|---|---|
 |  1  | Double and Simple text      | Sample 1    | https://bonezegei.github.io/bonezegei-badge/sample/doubletext.html  |
+
+
+## Simple Text (URL Based)
+  URL based uses url to directly display the image
+#### Format 
+URL+String
+
+URL=https://www.bonezegei.com/badge/?
+
+String= param1 - param2
+ * param1 = text (text space are define as _ . so if the text is more than 1 word instead of putting space between word sperate it by the character "_")
+ * param2 = color of background 
+
+| No | Sample | Description| URL Link|
+|-----|-----|---|---|
+|  1  | ![D](https://www.bonezegei.com/badge/?hello_world-tomato)      | Sample 1    | https://www.bonezegei.com/badge/?hello_world-tomato  |
+
