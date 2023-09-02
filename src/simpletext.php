@@ -50,7 +50,7 @@
   
   <g>
     <rect x="0" width="<?php echo($tmpW+20);?>" height="20px" rx="3" fill="<?php echo ($color);?>" id="rect1"/>
-    <text x="10px" y="14px" class="small" id="text1" fill="white"><?php echo ($text);?></text>
+    <text x="10px" y="14px" class="small" id="text1" fill="white"><?php echo ($final_text);?></text>
   </g>
   
 </svg>
