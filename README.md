@@ -78,7 +78,7 @@ badgeDoubleText(text1, text2, color1, color2, id);
 #### Format 
 URL+String
 
-URL=https://www.bonezegei.com/badge/?
+URL=https://bonezegei.com/badge/?
 
 String= param1 - param2
  * param1 = text (text space are define as _ . so if the text is more than 1 word instead of putting space between word sperate it by the character "_")
@@ -86,5 +86,6 @@ String= param1 - param2
 
 | No | Sample | Description| URL Link|
 |-----|-----|---|---|
-|  1  | ![D](https://www.bonezegei.com/badge/?hello_world-tomato)      | Sample 1    | https://www.bonezegei.com/badge/?hello_world-tomato  |
+|  1  | ![D](https://bonezegei.com/badge/?hello_world-tomato)         | Sample 1    | https://bonezegei.com/badge/?hello_world-tomato  |
+|  2  | ![D](https://bonezegei.com/badge/?bonezegei_badge-green)      | Sample 2    | https://bonezegei.com/badge/?bonezegei_badge-green  |
 
