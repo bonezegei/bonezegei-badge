@@ -15,10 +15,9 @@ String= param1 - param2
 | No | Sample | Description| URL Link|
 |-----|-----|---|---|
 |  1  | ![D](https://img.bonezegei.com/text/?hello_world-tomato)         | Sample 1    | https://img.bonezegei.com/text/?hello_world-tomato  |
-|  2  | ![D](https://img.bonezegei.com/text/?bonezegei_badge-green)      | Sample 2    | https://img.bonezegei.com/text/?bonezegei_badge-green  |
+|  2  | ![D](https://img.bonezegei.com/text/?bonezegei_badge-teal)      | Sample 2    | https://img.bonezegei.com/text/?bonezegei_badge-teal  |
 
 
------------------------------------
 
 ## JS Based
 #### Samples
