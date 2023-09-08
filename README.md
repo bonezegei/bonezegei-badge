@@ -1,11 +1,32 @@
 # bonezegei_badge
 Simple badge for web using javascript
 
-#### Details
+## Simple Text (URL Based)
+  URL based uses url to directly display the image
+#### Format 
+URL+String
+
+URL=https://img.bonezegei.com/text/?
+
+String= param1 - param2
+ * param1 = text (text space are define as _ . so if the text is more than 1 word instead of putting space between word sperate it by the character "_")
+ * param2 = color of background 
+
+| No | Sample | Description| URL Link|
+|-----|-----|---|---|
+|  1  | ![D](https://img.bonezegei.com/text/?hello_world-tomato)         | Sample 1    | https://img.bonezegei.com/text/?hello_world-tomato  |
+|  2  | ![D](https://img.bonezegei.com/text/?bonezegei_badge-green)      | Sample 2    | https://img.bonezegei.com/text/?bonezegei_badge-green  |
+
+
+-----------------------------------
+
+## JS Based
+#### Samples
 | No  | Sample Output                       | Badge type      | Height  | Width    |
 |-----|-------------------------------------|-----------------|---------|----------|
 |  1  | ![S](docs/images/simpletext.png)    |badgeSimpleText  | 20px    | Dynamic  |
 |  2  | ![D](docs/images/doubletext.png)    |badgeDoubleText  | 20px    | Dynamic  |
+
 
 ## Simple Text
 Displays basic text inside a box. The user must set first the img id for the image and call the javascipt function specifying the text, color and id of the desired badge.
@@ -72,20 +93,4 @@ badgeDoubleText(text1, text2, color1, color2, id);
 |-----|-----|---|---|
 |  1  | Double and Simple text      | Sample 1    | https://bonezegei.github.io/bonezegei-badge/sample/doubletext.html  |
 
-
-## Simple Text (URL Based)
-  URL based uses url to directly display the image
-#### Format 
-URL+String
-
-URL=https://bonezegei.com/badge/?
-
-String= param1 - param2
- * param1 = text (text space are define as _ . so if the text is more than 1 word instead of putting space between word sperate it by the character "_")
- * param2 = color of background 
-
-| No | Sample | Description| URL Link|
-|-----|-----|---|---|
-|  1  | ![D](https://bonezegei.com/badge/?hello_world-tomato)         | Sample 1    | https://bonezegei.com/badge/?hello_world-tomato  |
-|  2  | ![D](https://bonezegei.com/badge/?bonezegei_badge-green)      | Sample 2    | https://bonezegei.com/badge/?bonezegei_badge-green  |
 
